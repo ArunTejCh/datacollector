@@ -137,7 +137,7 @@ public class BasicPropertiesConfig {
       triggeredByValue = "true",
       group = "#0"
   )
-  public short expiration = 0;
+  public int expiration = 0;
 
   @ConfigDef(
       required = false,
